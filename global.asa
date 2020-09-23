@@ -1,0 +1,21 @@
+<!--==Visual InterDev Generated - startspan==-->
+<!--METADATA TYPE="TypeLib" NAME="Microsoft ActiveX Data Objects 2.5 Library" UUID="{00000205-0000-0010-8000-00AA006D2EA4}" VERSION="2.5"-->
+<!--METADATA TYPE="TypeLib" NAME="Microsoft XML, v3.0" UUID="{F5078F18-C551-11D3-89B9-0000F81FE221}" VERSION="3.0"-->
+<!--==Visual InterDev Generated - endspan==-->
+<SCRIPT LANGUAGE=VBScript RUNAT=Server>
+
+<SCRIPT LANGUAGE=VBScript RUNAT=Server>
+Sub Application_OnStart
+	'==Visual InterDev Generated - startspan==
+	'--Project Data Connection
+		Application("cn_ConnectionString") = "Provider=MSDASQL.1;Persist Security Info=False;User ID=admin;Data Source=Simweb;Extended Properties=""DSN=Simweb;DBQ=c:\dev\data\simweb.mdb;DriverId=281;FIL=MS Access;MaxBufferSize=2048;PageTimeout=5;UID=admin;"";User Id=admin;"
+		Application("cn_ConnectionTimeout") = 15
+		Application("cn_CommandTimeout") = 30
+		Application("cn_CursorLocation") = 3
+		Application("cn_RuntimeUserName") = "admin"
+		Application("cn_RuntimePassword") = ""
+	'==Visual InterDev Generated - endspan==
+End Sub
+
+
+</SCRIPT>
